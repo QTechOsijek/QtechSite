@@ -1,0 +1,69 @@
+<div class="parallax img1" id="home"></div>
+<div class="dark" id="About">
+    <table>
+        <tr>
+            <td style="padding-right: 30px">
+                <img src="../images/logo.png" width="300px">
+            </td>
+            <td>
+                <h3 style="font-size: 50px;">What are we doing?</h3>
+                <ul>
+                    <li>Merging our individual projects and extending them for wider use</li>
+                    <li>Motivating others</li>
+                    <li>Learning and having fun</li>
+                </ul>
+                <br>
+                <h3 style="font-size: 50px;">What is this actually?</h3>
+                <ul>
+                    <li>This is an organization consisting of young people with different backgrounds but with same passion</li>
+                    <li>Our passion is to make great projects and help each other</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="parallax img2" id="home" style="padding-top:400px; heigth:500px" > 
+<div class="dark" id="projects">
+    <h3 style="font-size: 50px; text-align: center;" >What are we doing?</h3>
+</div>
+
+    <table >
+        <tr style="margin-top: 100px">
+            <td style="padding: 0px 200px;">
+                <div style="background-color:#292828;  padding: 15px; margin-top: 100px">
+                    <a href="https://github.com/QTechOsijek/Low-cost_Smart-house">
+                    <img src="../images/project1.png" width="564px">
+                    <h1 style="color:white; text-align:center">Low-cost smart house</h1>
+                    </a>
+                </div>
+            </td>
+            <td style="padding: 0px 50px;">
+                <div style="background-color:#292828;  padding: 15px;margin-top: 100px">
+                    <img src="../images/project2.png" width="564px">
+                    <h1 style="color:white; text-align:center">AI controlled smart house</h1>
+
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="dark" id="team">
+    <h3 style="font-size: 50px; text-align: center;">Our remarkable team</h3>
+</div>
+
+    <script>
+
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 50
+                    }, 1000);
+                    return false;
+                }
+            });
+        });
+    </script>
+    </div>
