@@ -1,0 +1,156 @@
+<!-- HEADER -->
+<div class="header">
+
+    <h1 href="#default" class="logo">Qtech Osijek</h1>
+    <div class="header-right">
+        <a href="#team">Team</a>
+        <a href="#projects">Projects</a>
+        <a href="#About">About</a>
+        <a href="#home">Home</a>
+    </div>
+</div>
+<div class="dark2" id="home">
+    <img src="../images/logo.png" width="100%" align="middle">
+</div>
+
+<div class="dark1" id="About">
+
+
+    <h3>What are we doing?</h3>
+    <ul>
+        <li>Merging our individual projects and extending them for wider use</li>
+        <li>Motivating others</li>
+        <li>Learning and having fun</li>
+    </ul>
+    <br>
+</div>
+<div class="dark2">
+    <h3>What is this actually?</h3>
+    <ul>
+        <li>This is an organization consisting of young people with different backgrounds but with same passion</li>
+        <li>Our passion is to make great projects and help each other</li>
+    </ul>
+</div>
+<div class="dark1" id="projects">
+    <h3>Our smart house projects</h3>
+</div>
+
+<table>
+    <tr style="margin-top: 100px" class="scroll-in">
+        <td style="padding: 0px ;">
+            <div style="background-color:#333535;  padding: 15px;">
+                <a href="https://github.com/QTechOsijek/Low-cost_Smart-house">
+                    <img src="../images/project1.png" width="100%">
+                    <h4 style="color:white; text-align:center">Low-cost smart house</h4>
+                </a>
+            </div>
+        </td>
+    </tr>
+    <td style="padding: 0px ;">
+        <div style="background-color:#292828;  padding: 15px;">
+            <img src="../images/project2.png" width="100%">
+            <h4 style="color:white; text-align:center">AI controlled smart house</h4>
+            </a>
+        </div>
+
+
+    </td>
+</table>
+
+<div class="dark2" id="team">
+    <h3>Our remarkable team</h3>
+</div>
+<div class="dark1" id="team">
+    <div class="member-box">
+        <a href="https://github.com/erseticmatej">
+            <table>
+                <tr>
+                    <td>
+                        <img src="../images/member1.png" width="340" alt="Matej Eršetić" align="middle" style="zoom:0.5" />
+                    </td>
+                    <td style="padding-left: 25px">
+                        <p style=" padding-top: 15px;color: white;">Matej Eršetić</p>
+                        <p style=" padding-top: 5px;color: white;">PR manager</p>
+                    </td>
+                </tr>
+            </table>
+
+        </a>
+    </div>
+</div>
+<div class="dark2" id="team">
+    <div class="member-box">
+        <a href="https://github.com/petarsusac">
+            <table>
+                <tr>
+                    <td>
+                        <img src="../images/member2.png" width="340" alt="Petar Sušac" align="middle" style="zoom:0.5" />
+                    </td>
+                    <td style="padding-left: 25px">
+                        <p style=" padding-top: 15px;color: white;">Petar Sušac</p>
+                        <p style=" padding-top: 5px;color: white;">Backend developer</p>
+                    </td>
+                </tr>
+            </table>
+
+        </a>
+    </div>
+</div>
+<div class="dark1" id="team">
+    <div class="member-box">
+        <a href="https://github.com/Dominik-puta">
+            <table>
+                <tr>
+                    <td>
+                        <img src="../images/member3.png" width="340" alt="Dominik Putarić" align="middle" style="zoom:0.5" />
+                    </td>
+                    <td style="padding-left: 25px">
+                        <p style=" padding-top: 15px;color: white;">Dominik Putarić</p>
+                        <p style=" padding-top: 5px; color: white;">Full stack developer</p>
+                    </td>
+                </tr>
+            </table>
+        </a>
+    </div>
+</div>
+<div class="dark2" id="team">
+    <div class="member-box">
+        <a href="https://github.com/notASneakyBastard">
+            <table>
+                <tr>
+                    <td>
+                        <img src="../images/member4.png" width="340" alt="Filip Bilandžija" align="middle" style="zoom:0.5" />
+                    </td>
+                    <td style="padding-left: 25px">
+                        <p style=" padding-top: 15px;color: white;">Filip Bilandžija</p>
+                        <p style=" padding-top: 5px;color: white;">CTO and mobile developer</p>
+                    </td>
+                </tr>
+            </table>
+
+        </a>
+    </div>
+</div>
+
+<div class="dark1" style="text-align:center">
+    <p style="margin-bottom: 0;">Our contact: <a style="color: white;" href="mailto:qtechosijek@gmail.com" target="_top">qtechosijek@gmail.com</a></p>
+
+
+</div>
+
+
+    <script>
+
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top - 50
+                    }, 1000);
+                    return false;
+                }
+            });
+        });
+    </script>

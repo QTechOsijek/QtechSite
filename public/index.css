@@ -2,8 +2,7 @@ body{
   user-select: none;
 }
 .item {
-  width: 200px;
-  height: 200px;
+  width: 10.869565217391303vw;
   margin: 50px auto;
   padding-top: 75px;
   background: #ccc;
@@ -76,8 +75,8 @@ body{
   text-align: center;
   padding: 20px 15px;
   text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
+  font-size: 0.9782608695652173vw; 
+  line-height: 1.3586956521739129vw;
   border-radius: 4px;
   transition: all 0.3s ease;
   border-radius: 0;
@@ -90,7 +89,7 @@ body{
   text-align: center;
   padding-top: 20px;
   text-decoration: none;
-  font-size: 35px; 
+  font-size: 1.902173913043478vw; 
   line-height: 25px;
   border-radius: 4px;
   margin: 0;

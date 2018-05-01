@@ -1,0 +1,65 @@
+
+body{
+    height: 100%;
+    overflow: scroll;
+}
+
+.header {
+  width:100%;
+  position: fixed;
+  background-color: #292828;
+  padding: 0 10px;
+  margin-bottom: 500px;
+}
+  div.dark1{
+    margin:0;
+    background-color: #292828;
+    color:white;
+    font-size:3.5782608695652173vw;
+    padding: 10px 15px;
+        overflow: auto;
+
+  }
+  div.dark2{
+          margin:0;
+    background-color: #333535;
+    color:white;
+    font-size:3.5782608695652173vw;
+    padding: 10px 15px;
+        overflow: auto;
+  }
+/* Style the header links */
+.header a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-size: 3.5782608695652173vw; 
+  line-height: 1.3586956521739129vw;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  margin: 0.5vw;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header .logo {
+  float: left;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 4.902173913043478vw; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin: 0;
+}
+.member-box{
+    float:left;
+    font-size:4.5782608695652173vw;
+    padding: 15px 0;
+    color: white;
+    text-decoration:  none;
+}
