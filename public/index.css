@@ -1,5 +1,6 @@
 body{
   user-select: none;
+  
 }
 .item {
   width: 10.869565217391303vw;
@@ -60,12 +61,8 @@ body{
     margin:0;
     background-color: #292828;
     color:white;
-    font-size:35px;
-    padding: 10px 15px;
-  }
-  div.light{
-    background-color: white;
-    color:292828;
+    font-size:1.8766756032171579vw;
+    padding: 10px 0.8042895442359248vw;
   }
 
 /* Style the header links */
