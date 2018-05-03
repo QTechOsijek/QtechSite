@@ -21,7 +21,7 @@ body{
     border-bottom: 0
 } 
 .header-space{
-  padding-bottom: 65px;
+  padding-bottom: 1.3533208411409536vh;
 }
   .img1{
     /* The image used */
@@ -55,7 +55,7 @@ body{
   overflow: hidden;
   background-color: #292828;
   padding: 0 10px;
-  margin-bottom: 500px;
+  margin-bottom: 0;
 }
   div.dark{
     margin:0;
